@@ -1,0 +1,4 @@
+,Clustering Method,Learning Type,X Variable Type,Description,Advantage,Disadvantage
+0,K-Means Clustering,Unsupervised,Numerical,Partitions data into k clusters minimizing within-cluster variance,"Simple, fast, scalable for large datasets",Assumes spherical clusters; sensitive to initial centroids and outliers
+1,Hierarchical Clustering,Unsupervised,Numerical or Categorical,Builds a dendrogram by iteratively merging or splitting clusters,Does not require specifying number of clusters; interpretable structure,Computationally expensive; sensitive to distance metric and linkage method
+2,PCA + Clustering,Unsupervised,Numerical,Reduces dimensionality using PCA before applying clustering,Improves clustering in high dimensions,Loss of interpretability from PCA transformation

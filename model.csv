@@ -1,0 +1,10 @@
+,Technique,Category,Learning Type,Description,Advantage,Disadvantage
+0,Forward Selection,Model Selection,Supervised,Adds predictors one at a time based on performance improvement,Computationally efficient; interpretable,May miss optimal subset; greedy approach
+1,Backward Selection,Model Selection,Supervised,"Starts with all predictors, removes the least useful iteratively",Explores more combinations than forward selection,Computationally expensive; can't be used when p > n
+2,Stepwise Selection,Model Selection,Supervised,Combines forward and backward selection,Balances accuracy and complexity,Still a greedy method; risk of overfitting
+3,Cross-Validation,Model Assessment,Supervised,Estimates prediction error by splitting data into training/test sets,Reliable error estimates; avoids overfitting,Can be slow; depends on data partitioning
+4,Bootstrap,Model Assessment,Supervised,Resamples data with replacement to estimate variability,Flexible; estimates standard errors and confidence intervals,Can be biased in small samples
+5,Principal Components Analysis (PCA),Dimensionality Reduction,Unsupervised,Transforms data into orthogonal components,Reduces dimensionality; reveals structure,May lose interpretability
+6,"Clustering (K-Means, Hierarchical)",Clustering,Unsupervised,Groups data into similar subsets based on distance/similarity,Finds structure without labels; easy to use,Sensitive to scale and number of clusters
+7,Matrix Completion,Data Imputation,Unsupervised,Fills missing data using low-rank approximations,Useful in recommendation systems or missing value handling,Assumes underlying low-rank structure
+8,Multiple Testing Correction,Hypothesis Testing,Supervised/Unsupervised,"Adjusts p-values to control false positives (FDR, Bonferroni)",Reduces false discoveries in multiple tests,May reduce power if too conservative
